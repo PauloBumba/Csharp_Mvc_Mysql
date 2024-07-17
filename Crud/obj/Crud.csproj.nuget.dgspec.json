@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\paulo\\OneDrive\\Desktop\\Csharp_Mvc_Mysql\\Crud\\Crud.csproj": {}
+    "C:\\Users\\paulo\\OneDrive\\Desktop\\Csharp_Mvc_Mysql\\crud\\Crud.csproj": {}
   },
   "projects": {
-    "C:\\Users\\paulo\\OneDrive\\Desktop\\Csharp_Mvc_Mysql\\Crud\\Crud.csproj": {
+    "C:\\Users\\paulo\\OneDrive\\Desktop\\Csharp_Mvc_Mysql\\crud\\Crud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\paulo\\OneDrive\\Desktop\\Csharp_Mvc_Mysql\\Crud\\Crud.csproj",
+        "projectUniqueName": "C:\\Users\\paulo\\OneDrive\\Desktop\\Csharp_Mvc_Mysql\\crud\\Crud.csproj",
         "projectName": "Crud",
-        "projectPath": "C:\\Users\\paulo\\OneDrive\\Desktop\\Csharp_Mvc_Mysql\\Crud\\Crud.csproj",
+        "projectPath": "C:\\Users\\paulo\\OneDrive\\Desktop\\Csharp_Mvc_Mysql\\crud\\Crud.csproj",
         "packagesPath": "C:\\Users\\paulo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\paulo\\OneDrive\\Desktop\\Csharp_Mvc_Mysql\\Crud\\obj\\",
+        "outputPath": "C:\\Users\\paulo\\OneDrive\\Desktop\\Csharp_Mvc_Mysql\\crud\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\paulo\\AppData\\Roaming\\NuGet\\NuGet.Config",

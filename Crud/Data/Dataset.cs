@@ -67,5 +67,6 @@ namespace Crud.Data
                 throw new Exception("Erro ao fechar a conexão: " + ex.Message);
             }
         }
+        public MySqlConnection Connection=>connection;
     }
 }
