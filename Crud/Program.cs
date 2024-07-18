@@ -1,32 +1,58 @@
 ﻿using System;
-using Crud.Data;
-using Crud.Models;
-using Crud.Repository;
+using Crud.View;
 
 class Program 
 {
     static void Main()
     {
-        // Cria um novo cliente
-        Customer customer = new Customer();
-        customer.Name = "Paulo dotne Valente Bumba";
-        customer.Email = "paulomvbumba@gmaoil.com";
-        
+        bool continueRunning = true;
 
-        // Cria uma instância do repositório de clientes
-        var customerRepository = new CustomerRepository();
-
-        // Adiciona o novo cliente ao banco de dados
-        customerRepository.CreateConstumer(customer);
-
-        // Obtém todos os clientes do banco de dados
-        var customers = customerRepository.GetAllCustomers();
-
-        // Exibe os clientes
-        Console.WriteLine("Lista de Clientes:");
-        foreach (var cust in customers)
+        while (continueRunning)
         {
-            Console.WriteLine($"ID: {cust.Id}, Nome: {cust.Name}, Email: {cust.Email}");
+            Console.WriteLine("**********************");
+            Console.WriteLine("MEU PROGRAMA C# COM MYSQL");
+            Console.WriteLine("**********************");
+            Console.WriteLine();
+
+            Console.WriteLine("1 - Clientes");
+           
+            Console.WriteLine("0 - SAIR");
+
+            int menu = 0;
+
+            try
+            {
+                menu = Convert.ToInt32(Console.ReadLine());
+
+                switch (menu)
+                {
+                    case 1:
+                       CustumersView custumersView = new CustumersView();
+                       
+                        break;
+
+                    case 2:
+                        
+                        break;
+
+                    case 3:
+                       
+                        break;
+
+                    case 0:
+                        continueRunning = false;
+                        Console.WriteLine("Obrigado e volte sempre!");
+                        break;
+
+                    default:
+                        Console.WriteLine("Opção inválida.");
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Opção inválida. Erro: " + ex.Message);
+            }
         }
     }
 }
